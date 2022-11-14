@@ -10,4 +10,12 @@ public enum Color {
 		this.cadenaAMostrar = cadenaAMostrar;
 	}
 
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return cadenaAMostrar;
+	}
+	
+	
+
 }
