@@ -137,7 +137,7 @@ class ReinaTest {
 	
 	@Test
 	void toStringImprimeCorrectamente() {
-		assertEquals("color=Blanco, posicion=(fila=1, columna=d)", reinaBlanca.toString(), CADENA_NO_ESPERADA);
+		assertEquals("color=Blanco, posicion=fila=1, columna=d", reinaBlanca.toString(), CADENA_NO_ESPERADA);
 	}
 
 }

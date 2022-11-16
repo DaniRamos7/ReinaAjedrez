@@ -13,7 +13,8 @@ public class Posicion {
 	private void setFila(int fila) {
 		if (fila > 8 ) {
 			throw new IllegalArgumentException("ERROR: Fila no válida.");
-		} else if (fila < 1) {
+		}
+		if (fila < 1) {
 			throw new IllegalArgumentException("ERROR: Fila no válida.");
 		}
 		this.fila = fila;
@@ -24,7 +25,8 @@ public class Posicion {
 	private void setColumna(char columna) {
 		if (columna > 'h' ) {
 			throw new IllegalArgumentException("ERROR: Columna no válida.");
-		} else if (columna < 'a') {
+		}
+		if (columna < 'a') {
 			throw new IllegalArgumentException("ERROR: Columna no válida.");
 		}
 		this.columna = columna;
