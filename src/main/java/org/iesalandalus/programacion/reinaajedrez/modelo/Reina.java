@@ -8,7 +8,6 @@ public class Reina {
 	
 	private Color color ;
 	private Posicion posicion;
-	private int pasos;
 	
 	
 	public Color getColor() {
@@ -26,7 +25,7 @@ public class Reina {
 		return posicion;
 	}
 	
-	private void setPosicion(Posicion posicion) {
+	 private void setPosicion(Posicion posicion) {
 		if (posicion == null) {
 			throw new NullPointerException("La posición no es la esperada.");
 		}
