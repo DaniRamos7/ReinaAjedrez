@@ -25,12 +25,7 @@ public class Reina {
 		return posicion;
 	}
 	
-	 private void setPosicion(Posicion posicion) {
-		if (posicion == null) {
-			throw new NullPointerException("La posición no es la esperada.");
-		}
-		this.posicion = posicion;
-	}
+	
 	
 	public Reina() {
 		color = Color.BLANCO;
