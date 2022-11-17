@@ -65,5 +65,23 @@ public final class Consola {
 		}
 
 	}
+	
+	public void mostarMenuDirecciones() {
 
+		System.out.println("1.- Elegir norte.");
+		System.out.println("2.- Elegir noreste.");
+		System.out.println("3.- Elegir este.");
+		System.out.println("4.- Elegir sureste.");
+		System.out.println("5.- Elegir sur");
+		System.out.println("6.- Elegir suroeste");
+		System.out.println("7.- Elegir oeste");
+		System.out.println("8.- Elegir noroeste");
+		System.out.println("0.- Salir.");
+
+	}
+
+
+	
 }
+
+
