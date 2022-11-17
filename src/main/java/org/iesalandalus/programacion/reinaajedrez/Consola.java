@@ -116,5 +116,14 @@ public final class Consola {
 			break;
 		}
 	}
+	
+	public void elegirPasos() {
+		int pasos;
+		System.out.println("Elige el número de pasos a mover");
+		pasos = Entrada.entero();
+		System.out.println("El número de pasos que has elegido es: " + pasos);
+	}
+
+	
 
 }
