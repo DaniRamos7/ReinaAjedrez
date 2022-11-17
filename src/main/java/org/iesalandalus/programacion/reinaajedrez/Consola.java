@@ -65,7 +65,7 @@ public final class Consola {
 		}
 
 	}
-	
+
 	public void mostarMenuDirecciones() {
 
 		System.out.println("1.- Elegir norte.");
@@ -80,8 +80,41 @@ public final class Consola {
 
 	}
 
+	public void elegirDireccion() {
+		int opcion;
+		do {
+			System.out.print("Elija una dirección valida: ");
+			opcion = Entrada.entero();
+		} while (opcion < 0 || opcion > 8);
+		switch (opcion) {
+		case 0:
+			System.out.println("Has elegido salir.");
+			break;
+		case 1:
+			System.out.println("Has elegido norte.");
+			break;
+		case 2:
+			System.out.println("Has elegido noreste.");
+			break;
+		case 3:
+			System.out.println("Has elegido este.");
+			break;
+		case 4:
+			System.out.println("Has elegido sureste.");
+			break;
+		case 5:
+			System.out.println("Has elegido sur.");
+			break;
+		case 6:
+			System.out.println("Has elegido suroeste.");
+			break;
+		case 7:
+			System.out.println("Has elegido oeste.");
+			break;
+		case 8:
+			System.out.println("Has elegido noroeste.");
+			break;
+		}
+	}
 
-	
 }
-
-
